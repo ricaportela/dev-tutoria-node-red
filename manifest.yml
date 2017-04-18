@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: dev-tutoria-node-red
+  host: dev-tutoria-node-red
+  disk_quota: 1024M
+  services:
+  - dev-tutoria-node-red-cloudantNoSQLDB
